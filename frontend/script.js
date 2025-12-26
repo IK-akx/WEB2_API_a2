@@ -40,7 +40,7 @@ function render(data) {
             <p><small>Born: ${new Date(user.dateOfBirth).toLocaleDateString()}</small></p>
           </div>
         </div>
-        <p><b>📍 Location:</b> ${user.fullAddress}, ${user.city}, ${user.country}</p>
+        <p><b>📍 Location:</b> ${user.fullAddress}, ${user.city}, ${user.country}, ${user.locationCordiate}</p>
       </div>
       
       <div class="card">
@@ -57,7 +57,8 @@ function render(data) {
         <p class="exchange-rate">
           <b>💱 Exchange Rates:</b><br>
           1 ${exchange.base || 'USD'} = ${exchange.USD ?? 'N/A'} USD<br>
-          1 ${exchange.base || 'USD'} = ${exchange.KZT ?? 'N/A'} KZT
+          1 ${exchange.base || 'USD'} = ${exchange.KZT ?? 'N/A'} KZT<br>
+          1 ${exchange.base || 'USD'} = ${exchange.EUR ?? 'N/A'} EUR<br>
         </p>
       </div>
       

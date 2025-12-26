@@ -82,20 +82,36 @@ Data extracted: headline, description, image, link
 
 assignment2-api/
 ├── server.js                 # Main server
+
 ├── routes/
+
 │   └── api.routes.js         # API routes
+
 ├── services/                 # API logic
+
 │   ├── randomUser.service.js
+
 │   ├── country.service.js
+
 │   ├── exchange.service.js
+
 │   └── news.service.js
+
 ├── frontend/                   # Frontend
+
 │   ├── index.html
+
 │   ├── style.css
+
 │   └── script.js
+
+
 ├── .env                      # API keys
+
 ├── .gitignore
+
 ├── package.json
+
 └── README.md
 
 

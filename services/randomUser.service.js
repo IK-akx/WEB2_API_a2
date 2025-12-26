@@ -14,7 +14,8 @@ async function getRandomUser() {
         dateOfBirth: user.dob.date,
         city: user.location.city,
         country: user.location.country,
-        fullAddress: `${user.location.street.name} ${user.location.street.number}`
+        fullAddress: `${user.location.street.name} ${user.location.street.number}`,
+        locationCordiate: user.location.coordinates
     };
 }
 
